@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/Formulário/images/pexels-kübra-arslaner-13095904.jpg);
+    background-size:auto;
+
+}
+
+.opacity{
+    background-color: rgba(17, 48, 92, 0.479);
+    width: auto;
+    height: auto;
+}
+
+#title{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+#description{
+    color: aliceblue;
+    font-size: 18px;
+}
+
+header{
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+form{
+    background-color: rgba(6, 6, 78, 0.758);
+    width: 600px;
+    max-width: 600px;
+    padding: 3px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+fieldset{
+    padding: 5px 10px;
+    border: none;
+}
+
+label,input{
+    display: block;
+    padding: 3px;
+}
+
+label{
+    color: aliceblue;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input{
+    width: 100%;
+    background-color: black;
+    border: none;
+    height: 30px;
+    color: aliceblue;
+}
+
+select{
+    background-color: black;
+    color: aliceblue;
+    margin-bottom: 10px;
+    margin-left: 3px;
+}
+
+.inline{
+    display:unset;
+    width: auto;
+    vertical-align:middle;
+    margin: 0 3px;
+}
+
+textarea{
+    display: block;
+    resize: none;
+    margin-top: 2px;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+}
+
+#submit{
+    font-size: 15px;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head lang="pt-BR">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">Formulário</h1>
+        <p id="description">Obrigado por nos ajudar a melhorar!</p>
+    </header>
+    <form id="survey-form">
+        <fieldset>
+        <label id="name-label">Nome:<input type="text" id="name" placeholder="Digite aqui seu nome" required></label>
+        <label id="email-label">E-mail:<input type="email"id="email" placeholder="Digite aqui seu e-mail" required></label>
+        <label id="number-label">Idade<small>(opcional):</small><input type="number" id="number" min="10" max="100" placeholder="Digite aqui sua idade"></label>
+        </fieldset>
+        <fieldset>
+        <label>Qual a sua experiência?</label>
+        <select id="dropdown">
+            <option>Selecione uma opção</option>
+            <option>Iniciante</option>
+            <option>Avançado</option>
+        </select>
+        <label>Qual sua área?</label>
+        <label><input type="radio" class="inline" name="area" value="0">Front-end</label>
+        <label><input type="radio" class="inline" name="area" value="1">Back-end</label>
+        <label><input type="radio" class="inline" name="area" value="2">Fullstack</label>
+        <label>Quais tecnologias conhece?</label>
+        <label><input type="checkbox" class="inline" value="0">HTML</label>
+        <label><input type="checkbox" class="inline" value="1">CSS</label>
+        <label><input type="checkbox" class="inline" value="2">Javascript</label>
+        <label><input type="checkbox" class="inline" value="3">Typescript</label>
+        </fieldset>
+        <fieldset>
+        <label>Escreva sobre sua carreira:<textarea name="carreira" rows="5" cols="auto" placeholder="Digite sobre sua carreira na programação..."></textarea></label>
+        </fieldset>
+        <fieldset>
+        <input type="submit" id="submit" value="Enviar">
+        </fieldset>
+    </form>
+</body>
+
