@@ -6,21 +6,23 @@
     <title>Formulário</title>
 </head>
 <body>
+    <div class="opacity">
     <header>
         <h1 id="title">Formulário</h1>
-        <p id="description">Obrigado por nos ajudar a melhorar!</p>
+        <p id="description">Obrigado por nos ajudar a te conhecer melhorar!</p>
     </header>
     <form id="survey-form">
         <fieldset>
         <label id="name-label">Nome:<input type="text" id="name" placeholder="Digite aqui seu nome" required></label>
         <label id="email-label">E-mail:<input type="email"id="email" placeholder="Digite aqui seu e-mail" required></label>
-        <label id="number-label">Idade<small>(opcional):</small><input type="number" id="number" min="10" max="100" placeholder="Digite aqui sua idade"></label>
+        <label id="number-label">Idade <small>(opcional):</small><input type="number" id="number" min="10" max="100" placeholder="Digite aqui sua idade"></label>
         </fieldset>
         <fieldset>
         <label>Qual a sua experiência?</label>
         <select id="dropdown">
             <option>Selecione uma opção</option>
             <option>Iniciante</option>
+            <option>Intermediário</option>
             <option>Avançado</option>
         </select>
         <label>Qual sua área?</label>
@@ -40,5 +42,6 @@
         <input type="submit" id="submit" value="Enviar">
         </fieldset>
     </form>
+    </div>
 </body>
 
